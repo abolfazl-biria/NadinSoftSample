@@ -31,6 +31,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EndPoint.Api", "EndPoint.Ap
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{7994A6B0-E879-4C6F-8509-6F613F25B62C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NadinSoftSample.Test", "NadinSoftSample.Test\NadinSoftSample.Test.csproj", "{3F066317-03CD-4435-B5BD-7AFF40EB2A12}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -65,6 +67,10 @@ Global
 		{7994A6B0-E879-4C6F-8509-6F613F25B62C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7994A6B0-E879-4C6F-8509-6F613F25B62C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7994A6B0-E879-4C6F-8509-6F613F25B62C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F066317-03CD-4435-B5BD-7AFF40EB2A12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F066317-03CD-4435-B5BD-7AFF40EB2A12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F066317-03CD-4435-B5BD-7AFF40EB2A12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F066317-03CD-4435-B5BD-7AFF40EB2A12}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -80,6 +86,7 @@ Global
 		{E1F4250E-15EC-4207-9654-2B15E305EC08} = {9FAC3EEC-7BD3-44B0-AC04-066D14FE82D7}
 		{8172A292-746F-403B-8544-1C6FFCAF6D22} = {9FAC3EEC-7BD3-44B0-AC04-066D14FE82D7}
 		{23B21339-B377-4AC8-BBBB-165ADB9A5289} = {9682885E-862E-4AD8-96A3-4DA1140AD873}
+		{3F066317-03CD-4435-B5BD-7AFF40EB2A12} = {23502591-972F-448F-B0F4-DCE94B6B7EC5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C4A16DC1-DADE-4B0E-9B60-267196552CDF}
