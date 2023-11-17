@@ -14,6 +14,7 @@ var environment = builder.Environment;
 
 services
     .AddServices()
+    .AddConfiguredAutoMapper()
     .AddConfiguredDatabase(configuration)
     .AddConfiguredIdentity(configuration)
     .AddConfiguredSwagger()
